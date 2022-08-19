@@ -86,7 +86,7 @@ function CreateListing() {
 
     if (geolocationEnabled) {
       const response = await fetch(
-        `https://api.mapbox.com/geocoding/v5/mapbox.places/${address}.json?access_token=pk.eyJ1IjoiYnVnbWVub3QyMyIsImEiOiJjbDQyaWNrMDUwYTNrM2pzNTZuaWN4eTU4In0.6LSgjB_qhr9pIRUPTzXDWA&limit=1`
+        `https://api.mapbox.com/geocoding/v5/mapbox.places/${address}.json?access_token=${process.env.REACT_APP_GEOCODE_API_KEY}&limit=1`
       );
       const data = await response.json();
       geolocation.lat = data.features[0]?.center[1] ?? 0;
