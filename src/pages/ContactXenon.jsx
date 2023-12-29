@@ -117,7 +117,7 @@ function Contact() {
     const docRef = await addDoc(collection(db, "contact"), formDataCopy);
     setLoading(false);
     toast.success("Form Submitted!!");
-    navigate(`/category`);
+    navigate(`/offer`);
   };
 
   const onMutate = (e) => {

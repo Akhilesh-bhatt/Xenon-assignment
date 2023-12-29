@@ -30,7 +30,7 @@ function Navbar() {
 
           {/* contact us */}
           <li className="navbarListItem" onClick={() => navigate('/contactXenon')}>
-            <ContactXenon fill={pathMatchRoute('/offer') ? '#2c2c2c' : '#8f8f8f'} width='36px' height='36px' />
+            <ContactXenon fill={pathMatchRoute('/contactXenon') ? '#2c2c2c' : '#8f8f8f'} stroke={pathMatchRoute('/contactXenon') ? '#2c2c2c' : '#8f8f8f'} width='36px' height='36px' />
             <p className={pathMatchRoute('/contactXenon')? 'navbarListItemNameActive' : 'navbarListItemName'}>Contact Us</p>
           </li>
 
