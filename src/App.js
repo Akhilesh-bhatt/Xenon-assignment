@@ -13,6 +13,7 @@ import { PrivateRoute } from "./components/PrivateRoute";
 
 import Listing from "./pages/Listing";
 import Contact from "./pages/Contact";
+import ContactXenon from "./pages/ContactXenon";
 import EditListing from "./pages/EditListing";
 import CreateListing from "./pages/CreateListing";
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="/editlisting/:listingId" element={<EditListing />} />
           <Route path="/Category/:categoryName" element={<Categories />} />
           <Route path="/contact/:landlordId" element={<Contact />} />
+          <Route path="/contactXenon" element={<ContactXenon/>} />
           <Route path="/Category/:categoryName/:listingId" element={<Listing />} />
           <Route path="/profile" element={<PrivateRoute />}>
             <Route path="/profile" element={<Profile />} />
