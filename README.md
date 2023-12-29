@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a comprehensive property renting and selling website, developed using Firebase v9 and React. The application empowers users to seamlessly find and list houses for sale or rent, offering a modern and user-friendly experience. The integration of Google Authentication via Firebase ensures a secure and hassle-free sign-up and sign-in process. Built on the MERN stack, the application enables users to perform CRUD operations, manage listings, and update their credentials.
+This project is a comprehensive property renting and selling website, developed using Firebase v9 and React. The application empowers users to seamlessly find and list houses for sale or rent, offering a modern and user-friendly experience. The integration of Google Authentication via Firebase ensures a secure and hassle-free sign-up and sign-in process. Full-stack application enables users to perform CRUD operations, manage listings, and update their credentials.
 
 In addition to the fundamental features, the website facilitates communication between potential buyers or renters and property owners. Users can easily contact landlords for property inquiries. The application also provides a dynamic real-time map powered by Leaflet, allowing users to visualize the location of properties on sale or rent.
 
