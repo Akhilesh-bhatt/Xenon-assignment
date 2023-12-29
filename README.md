@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Property Renting & Selling Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+
+This project is a comprehensive property renting and selling website, developed using Firebase v9 and React. The application empowers users to seamlessly find and list houses for sale or rent, offering a modern and user-friendly experience. The integration of Google Authentication via Firebase ensures a secure and hassle-free sign-up and sign-in process. Built on the MERN stack, the application enables users to perform CRUD operations, manage listings, and update their credentials.
+
+In addition to the fundamental features, the website facilitates communication between potential buyers or renters and property owners. Users can easily contact landlords for property inquiries. The application also provides a dynamic real-time map powered by Leaflet, allowing users to visualize the location of properties on sale or rent.
+
+## Screenshots
+
+![Screenshot 1](/screenshots/screenshot1.png)
+*Caption for Screenshot 1*
+
+![Screenshot 2](/screenshots/screenshot2.png)
+*Caption for Screenshot 2*
+
+<!-- Add more screenshots as needed -->
+
+## Deployment
+
+The website is live and can be accessed at [https://xenon-assignment-property-sell-rent.vercel.app/](https://xenon-assignment-property-sell-rent.vercel.app/)
+
+## GitHub Repository
+
+The source code is hosted on GitHub at [https://github.com/Akhilesh-bhatt/Xenon-assignment/tree/xenon](https://github.com/Akhilesh-bhatt/Xenon-assignment/tree/xenon) with the default branch set to `xenon`.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+- `npm start`: Launches the app in development mode.
+- `npm test`: Initiates the test runner.
+- `npm run build`: Generates a production build of the app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get started with the project:
 
-### `npm test`
+1. Clone the repository using `git clone https://github.com/Akhilesh-bhatt/Xenon-assignment.git`.
+2. Install project dependencies by running `npm install`.
+3. Start the app locally with `npm start`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- **User Authentication**: Secure sign-up and sign-in using Google Authentication via Firebase.
+- **CRUD Operations**: Full functionality for creating, reading, updating, and deleting property listings.
+- **User Profile Management**: Allows users to update their credentials.
+- **Communication**: Users can easily contact landlords for property inquiries.
+- **Real-time Map Integration**: Dynamic mapping feature powered by Leaflet to visualize property locations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+This project is licensed under the [MIT License](LICENSE).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Note:** Adjust and expand sections as needed.
