@@ -25,6 +25,7 @@ button {
   border: none;
 }
 
+
 .input,
 .passwordInput,
 .emailInput,
@@ -73,6 +74,21 @@ button {
   justify-content: center;
 }
 
+.sendMessage {
+  cursor: pointer;
+  background: #00cc66;
+  border-radius: 1rem;
+  padding: 0.85rem 2rem;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.25rem;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .removeIcon {
   cursor: pointer;
   position: absolute;
@@ -87,6 +103,15 @@ button {
   right: 20px;
 }
 
+.pageContainerNew{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
 .pageContainer,
 .offers,
 .profile,
@@ -96,13 +121,14 @@ button {
   margin: 1rem;
 }
 @media (min-width: 1024px) {
+  .pageContainerNew,
   .pageContainer,
   .offers,
   .profile,
   .listingDetails,
   .category,
   .explore {
-    margin: 3rem;
+    margin: 3rem;    
   }
 }
 
@@ -596,6 +622,13 @@ button {
   font-size: 1.2rem;
 }
 
+.messageFormNew {
+  margin-top: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
 .messageForm {
   margin-top: 0.5rem;
 }
@@ -712,6 +745,14 @@ button {
   padding: 0;
 }
 
+.formLabelNew{
+  font-weight: 600;
+  margin-top: 1.5rem;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+}
+
 .formLabel {
   font-weight: 600;
   margin-top: 1rem;
@@ -726,15 +767,17 @@ button {
 .formInput,
 .formInputAddress,
 .formInputName,
+.formInputNameNew,
 .formInputSmall,
 .formInputFile,
+.formInputFileNew,
 .formButtonActive {
-  padding: 0.9rem 3rem;
+  padding: 0.3rem 1rem;
   background-color: #ffffff;
   font-weight: 600;
   border-radius: 1rem;
   font-size: 1rem;
-  margin: 0.5rem 0.5rem 0 0;
+  margin: 0.3rem 0.3rem 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -746,19 +789,27 @@ button {
 
 .flex {
   display: flex;
+  width: 100%;
+  max-width: 500px;
+  justify-content: space-between;
 }
+
 
 .formInput,
 .formInputAddress,
+.formInputNameNew,
 .formInputName,
 .formInputSmall,
-.formInputFile {
+.formInputFile,
+.formInputFileNew {
   border: none;
   outline: none;
   font-family: 'Montserrat', sans-serif;
 }
+
 .formInputSmall,
-.formInputFile {
+.formInputFile,
+.formInputFileNew {
   margin-right: 3rem;
   padding: 0.9rem 0.7rem;
   text-align: center;
@@ -770,10 +821,16 @@ button {
   max-width: 326px;
 }
 
+.formInputNameNew{
+  padding: 0.9rem 1rem;
+  width: 100%;
+  max-width: 500px;
+}
+
 .formInputAddress {
   padding: 0.9rem 1rem;
-  width: 90%;
-  max-width: 326px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .formPriceDiv {
@@ -787,9 +844,16 @@ button {
 }
 
 .imagesInfo {
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   opacity: 0.75;
+  margin: 0.3rem 0;
 }
+
+.formInputFileNew{
+  width: 100%;
+  max-width: 500px;
+}
+
 
 .formInputFile {
   width: 100%;
@@ -804,8 +868,18 @@ button {
   margin-right: 1rem;
 }
 
+.formInputFileNew::-webkit-file-upload-button {
+  background-color: #00cc66;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
 .createListingButton {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .offers {

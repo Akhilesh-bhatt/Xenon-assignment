@@ -43,6 +43,7 @@ function Contact() {
           setFormData({ ...formData, userRef: user.uid });
         } else {
           navigate("/signin");
+          toast.error("You have to first Sign In !!");
         }
       });
     }
@@ -151,17 +152,17 @@ function Contact() {
   }
 
   return (
-    <div className="pageContainer">
+    <div className="pageContainerNew">
       <header>
         <p className="pageHeader">Contact Us</p>
       </header>
         <main>
-          <form className="messageForm" onSubmit={onSubmit}>
-            <div className="formRooms flex">
-                <div>
-                    <label className="formLabel">First Name</label>
+          <form className="messageFormNew" onSubmit={onSubmit}>
+            <div className="flex">
+                <div style={{marginRight: "0.5rem"}}>
+                    <label className="formLabel ">First Name</label>
                     <input
-                        className="formInputName"
+                        className="formInputNameNew"
                         type="text"
                         id="firstName"
                         value={firstName}
@@ -172,10 +173,10 @@ function Contact() {
                     />
                 </div>
 
-                <div>
+                <div style={{marginLeft: "0.5rem"}}>
                     <label className="formLabel">Last Name</label>
                     <input
-                        className="formInputName"
+                        className="formInputNameNew"
                         type="text"
                         id="lastName"
                         value={lastName}
@@ -189,7 +190,7 @@ function Contact() {
 
             <label className="formLabel">Email</label>
             <input
-                className="formInputName"
+                className="formInputNameNew"
                 type="email"
                 id="email"
                 value={email}
@@ -201,7 +202,7 @@ function Contact() {
 
             <label className="formLabel">Contact Number</label>
             <input
-                className="formInputName"
+                className="formInputNameNew"
                 type="number"
                 id="contact"
                 value={contact}
@@ -212,23 +213,24 @@ function Contact() {
             />
                 
             <div>
-                <label className="formLabel">Your Concern</label>
+                <label className="formLabel">Your Concern/Query</label>
                 <textarea
                     name="message"
                     id="message"
-                    className="formInputName"
+                    className="formInputNameNew"
                     value={message}
                     onChange={onMutate}
                     required
                 ></textarea>
             </div>
+            
 
-            <label className="formLabel">Provide document related to your issue</label>
+            <label className="formLabel">Upload Documents</label>
             <p className="imagesInfo">
-                The first image will be the cover (max 6).
+           Provide images relevant to your concern ( .jpg, .jpeg, and .png file formats)
             </p>
             <input
-                className="formInputFile"
+                className="formInputFileNew"
                 type="file"
                 id="images"
                 onChange={onMutate}
@@ -237,7 +239,7 @@ function Contact() {
                 multiple
             />
 
-          <button type="submit" className="primaryButton createListingButton">
+          <button type="submit" className="sendMessage createListingButton">
             Send Message
           </button>
               
