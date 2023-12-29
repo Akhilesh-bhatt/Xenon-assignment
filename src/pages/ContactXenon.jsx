@@ -19,7 +19,7 @@ function Contact() {
         firstName: "",
         lastName: "",
         email: "",
-        contact: 0,
+        contact: "",
         message: "",
         images: {}
       });
@@ -167,8 +167,6 @@ function Contact() {
                         id="firstName"
                         value={firstName}
                         onChange={onMutate}
-                        maxLength="32"
-                        minLength="10"
                         required
                     />
                 </div>
@@ -181,8 +179,6 @@ function Contact() {
                         id="lastName"
                         value={lastName}
                         onChange={onMutate}
-                        maxLength="32"
-                        minLength="10"
                         required
                     />
                 </div>
@@ -207,7 +203,6 @@ function Contact() {
                 id="contact"
                 value={contact}
                 onChange={onMutate}
-                maxLength="32"
                 minLength="10"
                 required
             />
