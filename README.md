@@ -11,17 +11,22 @@ In addition to the fundamental features, the website facilitates communication b
 ![image](https://github.com/Akhilesh-bhatt/Xenon-assignment/assets/88084456/078c4e1c-d8e4-4a2e-9029-657d3ba465cd)
 *Explore Page*
 
+
 ![image](https://github.com/Akhilesh-bhatt/Xenon-assignment/assets/88084456/e526597f-28f5-4785-9031-dac4679b0a59)
 *Offer Page*
+
 
 ![image](https://github.com/Akhilesh-bhatt/Xenon-assignment/assets/88084456/3e234ccd-dd97-4f20-b641-38c679425606)
 *Sign In and  Sign Up using Google Auth/Email*
 
+
 ![image](https://github.com/Akhilesh-bhatt/Xenon-assignment/assets/88084456/a3ac58e8-40bf-4388-b041-00928c3d9f6e)
-*Profile Page of Logged In user*
+*Contact Page*
+
 
 ![image](https://github.com/Akhilesh-bhatt/Xenon-assignment/assets/88084456/28000a62-0265-4297-8cd9-7a61f2c9c615)
-*Contact Page*
+*Profile Page of Logged In user*
+
 
 ![image](https://github.com/Akhilesh-bhatt/Xenon-assignment/assets/88084456/be9a7a3a-e6fd-444a-92d5-8ce8ac1b1449)
 *Page showing details of listing*
